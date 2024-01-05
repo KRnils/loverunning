@@ -161,7 +161,7 @@ hr {
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.6);
-    padding 15px;
+    padding: 15px;
     text-align: center;
     /*only wraps for 400px or wider screens
     each div will expand to fill available space for its row*/
