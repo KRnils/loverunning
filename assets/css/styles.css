@@ -34,7 +34,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index: 98;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -105,17 +105,39 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 #signup-form h2 {
     color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .radio-buttons {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 /* Hero things */
@@ -287,6 +309,27 @@ hr {
         #benefits-mental > div {
             text-align: end;
             align-self: flex-end;
+        }
+
+        #signup-form {
+            position: absolute;
+            top: 150px;
+            left: 10%;
+            max-width: 400px;
+        }
+
+        #signup {
+            background-position: center;
+            position: relative;
+        }
+
+        #text-input:hover {
+            border-color: #f16c6b;
+        }
+
+        .join-button:hover {
+            background-color: #fafafa;
+            color: #454b1b;
         }
 
         /*Gallery*/
